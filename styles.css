@@ -1,0 +1,25 @@
+
+@import url("styles/header.css");
+
+
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cor-principal:#667085;
+    --cor-texto-logo:#3A404E;
+    --cor-texto-botao:#ffffff;
+    --cor-rodape: #f9fafb;
+    --cor-botao:#8E2424;
+    --cor-titulo:  #101828;
+    --rosa-degrade:rgba(196, 25, 25, 0.03);
+
+    --fonte-principal: "inter";
+
+}
+
+body {
+  width: 1440px;
+  height: 100%;
+  margin: auto;
+  color:var(--cor-de-fundo);  
+}

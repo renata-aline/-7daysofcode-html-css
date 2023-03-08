@@ -1,0 +1,55 @@
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+
+}
+
+.cabecalho__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color:var(--cor-texto-logo);
+
+}
+
+.cabecalho__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+   
+}
+
+.cabecalho__links-link { 
+   font-size: 16px;
+   color:var(--cor-principal);
+   text-decoration: none;
+    
+}
+
+.cabecalho__botao-link {
+font-size: 16px;
+color:var(--cor-principal);
+text-decoration: none;
+margin-right: 30px;
+}
+
+.cabecalho__botao {
+   width: 112px;
+   height: 44px;
+   font-size: 16px;
+   border-radius: 8px;
+   color: var(--cor-texto-botao); 
+   background: var(--cor-botao);
+   
+}
+
