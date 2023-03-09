@@ -1,5 +1,6 @@
 
 @import url("styles/header.css");
+@import url("styles/cabecalho.css");
 
 
 
@@ -9,7 +10,8 @@
     --cor-texto-logo:#3A404E;
     --cor-texto-botao:#ffffff;
     --cor-rodape: #f9fafb;
-    --cor-botao:#8E2424;
+    --cor-botao:#f34336;
+    --cor-subtitulo: #8E2424;
     --cor-titulo:  #101828;
     --rosa-degrade:rgba(196, 25, 25, 0.03);
 

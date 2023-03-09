@@ -1,0 +1,35 @@
+
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    margin-top: 80px;
+
+}
+
+.introducao__subtitulo {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-subtitulo);
+
+}
+
+.introducao__titulo {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cor-titulo);
+    padding: 24px 0 36px 0;
+    
+}
+
+.introducao__texto {
+    width: 100%;
+    max-width: 791px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color:var(--cor-principal);
+}
