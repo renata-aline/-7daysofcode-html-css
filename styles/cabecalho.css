@@ -33,3 +33,35 @@
     text-align: center;
     color:var(--cor-principal);
 }
+
+.metricas-container {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    font-family: var(--fonte-principal);
+    /* background-color: aquamarine; */
+}
+
+.metricas-container__subtitulo__complemento {
+    display: block;
+    font-weight: 600;
+    font-size: 60px;
+    padding: 100px 0 15px 0;
+    color:var(--cor-subtitulo);
+}
+
+
+.metricas-container__subtitulo {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-titulo);
+    padding: 10px 0;
+}
+
+
+
+.metricas-container__texto {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-principal);   
+}
