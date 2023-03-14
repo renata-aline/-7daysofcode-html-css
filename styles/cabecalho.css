@@ -39,7 +39,7 @@
     flex-direction: row;
     gap: 64px;
     font-family: var(--fonte-principal);
-    /* background-color: aquamarine; */
+    
 }
 
 .metricas-container__subtitulo__complemento {
