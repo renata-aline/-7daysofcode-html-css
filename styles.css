@@ -2,6 +2,7 @@
 @import url("styles/header.css");
 @import url("styles/cabecalho.css");
 @import url("styles/main.css");
+@import url("styles/article.css");
 
 
 
@@ -15,6 +16,7 @@
     --cor-subtitulo: #8E2424;
     --cor-titulo:  #101828;
     --rosa-degrade:rgba(196, 25, 25, 0.03);
+    --cor-borda: #EAECF0;
 
     --fonte-principal: "inter";
 
