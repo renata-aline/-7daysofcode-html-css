@@ -1,0 +1,42 @@
+
+
+.depoimento-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1216px;
+    height: 404px;
+    margin: 100px 112px;
+    background-color: var(--rosa-degrade);
+}
+
+.depoimento-conteudo__titulo {
+    font-family: var(--fonte-pricipal);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-subtitulo);
+    margin-top: 64px;
+}
+
+.depoimento-conteudo__texto {
+    font-family: var(--fonte-pricipal);
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--cor-titulo);
+    padding: 16px 64px 32px 64px;
+}
+
+.depoimento-conteudo__perfil {
+    font-family: var(--fonte-pricipal);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-titulo);
+    padding: 16px 0 8px 0;
+}
+
+.depoimento-conteudo__profissao {
+    font-family: var(--fonte-pricipal);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-principal);
+}
