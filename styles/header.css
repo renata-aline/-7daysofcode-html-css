@@ -36,11 +36,20 @@
     
 }
 
+.cabecalho__links-link:hover {
+    color:var(--cor-titulo);
+}
+
 .cabecalho__botao-link {
 font-size: 16px;
 color:var(--cor-principal);
 text-decoration: none;
 margin-right: 30px;
+}
+
+.cabecalho__botao-link:hover {
+    color: var(--cor-titulo);
+    text-decoration: underline;
 }
 
 .cabecalho__botao {
@@ -51,5 +60,9 @@ margin-right: 30px;
    color: var(--cor-texto-botao); 
    background: var(--cor-botao);
    
+}
+
+.cabecalho__botao:hover {
+    background-color:#8B4513;
 }
 

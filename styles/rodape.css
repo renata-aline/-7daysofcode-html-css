@@ -42,6 +42,10 @@
     background: var(--cor-botao);
 }
 
+.rodape-botao:hover {
+    background-color:#8B4513;
+}
+
 footer {
     font-family: var(--fonte-principal);
     font-weight: 400;
